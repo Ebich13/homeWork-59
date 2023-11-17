@@ -8,7 +8,7 @@ interface Props {
 const JokeDisplay: React.FC<Props> = ({joke} ) => {
   return (
     <div>
-      <h2>Chuck Norris Joke</h2>
+      <h2>Chuck Norris</h2>
       <p>{joke}</p>
     </div>
   );
